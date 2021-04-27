@@ -1,7 +1,27 @@
-
-.beerCard {
-  border: 2px solid black;
-  width: 250px;
-  height: 350px;
-  margin: 10px;
+.beerList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  .beerCard {
+    border: 2px solid black;
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    img {
+      height: 170px;
+      padding-top: 20px;
+    }
+    ul {
+      list-style-type: circle;
+      list-style-position: inside;
+      text-align: initial;
+      margin-left: 15px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-weight: bold;
+    }
+  }
 }

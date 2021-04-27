@@ -4,6 +4,16 @@
   border-radius: border-box;
 }
 
+.heading {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #282c34;
+  color: aliceblue;
+  padding: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
 .App {
   text-align: center;
 }
